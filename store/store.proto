@@ -1,5 +1,5 @@
 syntax = "proto3";
-package store;
+package store.v1; // Adjust the package name with the version suffix
 
 service Inventory {
     // Add inserts a new Item into the inventory.
